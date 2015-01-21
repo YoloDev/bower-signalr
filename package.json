@@ -2,6 +2,9 @@
   "jspm": {
     "name": "SignalR",
     "main": "jquery.signalr",
+    "dependencies": {
+      "jquery": "*"
+    },
     "shim": {
       "jquery.signalr": {
         "imports": "jquery",
