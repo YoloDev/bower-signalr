@@ -1,0 +1,15 @@
+{
+  "jspm": {
+    "name": "SignalR",
+    "main": "jquery.signalr",
+    "shim": {
+      "jquery.signalr": {
+        "imports": "jquery",
+        "exports": "$"
+      }
+    },
+    "buildConfig": {
+      "uglify": true
+    }
+  }
+}
